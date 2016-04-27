@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\message">
+      <UniqueIdentifier>{c03ee5f2-900d-46d2-8b9a-dfd9a1a024f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\socket">
+      <UniqueIdentifier>{7a993040-ee58-480c-920c-8f79e6161133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\socket">
+      <UniqueIdentifier>{02b2ee70-ce7f-4a5b-a748-649cdff92ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\message">
+      <UniqueIdentifier>{b5cdbacd-3d1d-49bd-a2c9-c678fee0762e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{88287795-89bd-4114-8e90-6b0621bc37aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{58bd89bf-727a-4fb7-96bf-fd139103999a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SocketClient.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketMessageReader.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketMessageWriter.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtility.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="odsocket\ODSocket.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginRequestMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginResponseMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageActionType.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionRequestMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionResponseMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtil.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBuffer.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgSeqNoManager.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketEncryptManager.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketMessageReaderImpl.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketMessageWriterImpl.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLibString.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="odsocket\ODSocket.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionRequestMessage.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtil.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBuffer.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionResponseMessage.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginResponseMessage.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgSeqNoManager.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginRequestMessage.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketEncryptManager.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketMessageReaderImpl.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketMessageWriterImpl.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLibString.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

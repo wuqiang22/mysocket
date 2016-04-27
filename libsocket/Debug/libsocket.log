@@ -1,0 +1,51 @@
+﻿Build started 2016/4/27 16:29:33.
+     1>Project "E:\svnworkspace\projectmax\public\projects\libsocket\libsocket.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D SOCKET_DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExtensionRequestMessage.cpp ExtensionResponseMessage.cpp LoginRequestMessage.cpp odsocket\ODSocket.cpp RecvBuffer.cpp SocketClient.cpp SocketMessageReaderImpl.cpp SocketUtil.cpp ZLibString.cpp
+         ZLibString.cpp
+         SocketClient.cpp
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketclient.cpp(41): warning C4150: deletion of pointer to incomplete type 'lib::socket::ResponseMessage'; no destructor called
+                 e:\svnworkspace\projectmax\public\projects\libsocket\socketclient.h(34) : see declaration of 'lib::socket::ResponseMessage'
+         ODSocket.cpp
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\odsocket\odsocket.cpp(93): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\odsocket\odsocket.cpp(140): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\odsocket\odsocket.cpp(192): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+         ExtensionResponseMessage.cpp
+         Generating Code...
+         Compiling...
+         SocketUtil.cpp
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(15): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(16): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(17): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(18): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(19): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\socketutil.cpp(20): warning C4244: '=' : conversion from 'const uint64_t' to 'uint8_t', possible loss of data
+         SocketMessageReaderImpl.cpp
+         RecvBuffer.cpp
+     1>e:\svnworkspace\projectmax\public\projects\libsocket\recvbuffer.cpp(29): warning C4018: '>' : signed/unsigned mismatch
+         LoginRequestMessage.cpp
+         ExtensionRequestMessage.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\svnworkspace\projectmax\thelastday\projects\TheLastDay\trunk\TheLastDay\frameworks\runtime-src\proj.win32\Debug\libsocket.lib" /NOLOGO Debug\ExtensionRequestMessage.obj
+         Debug\ExtensionResponseMessage.obj
+         Debug\LoginRequestMessage.obj
+         Debug\LoginResponseMessage.obj
+         Debug\MsgSeqNoManager.obj
+         Debug\ODSocket.obj
+         Debug\RecvBuffer.obj
+         Debug\SocketClient.obj
+         Debug\SocketEncryptManager.obj
+         Debug\SocketMessageReaderImpl.obj
+         Debug\SocketMessageWriterImpl.obj
+         Debug\SocketUtil.obj
+         Debug\ZLibString.obj
+         libsocket.vcxproj -> E:\svnworkspace\projectmax\thelastday\projects\TheLastDay\trunk\TheLastDay\frameworks\runtime-src\proj.win32\Debug\libsocket.lib
+     1>Done Building Project "E:\svnworkspace\projectmax\public\projects\libsocket\libsocket.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.37
